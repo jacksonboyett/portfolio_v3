@@ -1,12 +1,14 @@
 'use client';
 
 import About from '@/components/About';
+import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import Projects from '@/components/Projects';
 import { MutableRefObject, useRef } from 'react';
 
 export default function Home() {
+  const home = useRef<HTMLDivElement>(null) as MutableRefObject<HTMLDivElement>;
   const about = useRef<HTMLDivElement>(null) as MutableRefObject<HTMLDivElement>;
   const projects = useRef<HTMLDivElement>(null) as MutableRefObject<HTMLDivElement>;
 
@@ -19,13 +21,16 @@ export default function Home() {
 
   return (
     <main className="relative">
+      <div className='relative' ref={home}>
       <Hero executeScroll={executeScroll} about={about}/>
-      <Navbar executeScroll={executeScroll} projects={projects} about={about}/>
+      </div>
+      <Navbar executeScroll={executeScroll} projects={projects} about={about} home={home}/>
       <div ref={about}>
         <About />
       </div>
       <div ref={projects}>
       <Projects/>
+      <Footer/>
       </div>
     </main>
   );
