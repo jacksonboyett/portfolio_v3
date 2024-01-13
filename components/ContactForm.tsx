@@ -44,17 +44,20 @@ function ContactForm() {
         <input
           type="text"
           name="name"
+          required
           placeholder="Name"
           className="pl-2 py-1 bg-background-light"
         />
         <input
           type="email"
           name="email"
+          required
           placeholder="Email"
           className="pl-2 py-1 bg-background-light"
         />
         <textarea
           name="message"
+          required
           placeholder="Message"
           className="pl-2 py-1 bg-background-light h-28"></textarea>
         <button
