@@ -47,7 +47,7 @@ function Projects() {
                     <p>Live App</p>
                   </Link>
                   <Link
-                    href={'http://www.exit-map.com'}
+                    href={'https://github.com/jacksonboyett/exitmap-v2'}
                     className="uppercase border-b-2 border-b-secondary hover:text-black hover:bg-secondary pl-2 pt-1 hover:rounded transition">
                     <p>Learn More</p>
                   </Link>
@@ -89,7 +89,7 @@ function Projects() {
                   <p>Live App</p>
                 </Link>
                 <Link
-                  href={'http://worldview-three.vercel.app'}
+                  href={'https://github.com/jacksonboyett/worldview'}
                   className="uppercase border-b-2 border-b-secondary hover:text-black hover:bg-secondary pl-2 pt-1 hover:rounded transition">
                   <p>Learn More</p>
                 </Link>

@@ -2,7 +2,7 @@ import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
-		<div className="pt-40 relative text-primary flex flex-col mb-12">
+		<div className="mt-40 relative text-primary flex flex-col mb-12">
 		<div className="h-3 w-32 bg-primary mx-auto relative z-1 mb-12">
 			<h2 className="text-5xl tracking-wider absolute -bottom-0 right-2 text-white">
 				Contact
