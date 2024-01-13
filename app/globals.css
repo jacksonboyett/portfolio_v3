@@ -16,3 +16,5 @@ html,body{
 textarea:focus, input:focus{
 	outline: none;
 }
+
+html{scroll-behavior:smooth}

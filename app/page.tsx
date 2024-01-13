@@ -16,6 +16,9 @@ export default function Home() {
   const projects = useRef<HTMLDivElement>(
     null
   ) as MutableRefObject<HTMLDivElement>;
+  const contact = useRef<HTMLDivElement>(
+    null
+  ) as MutableRefObject<HTMLDivElement>;
 
   const executeScroll = (ref: MutableRefObject<HTMLDivElement>) => {
     const offset = -50;
@@ -34,6 +37,7 @@ export default function Home() {
         projects={projects}
         about={about}
         home={home}
+        contact={contact}
       />
       <div ref={about}>
         <About />
@@ -41,7 +45,9 @@ export default function Home() {
       <div ref={projects}>
         <Projects />
       </div>
-      <Contact />
+      <div ref={contact}>
+      <Contact/>
+      </div>
       <Footer home={home} executeScroll={executeScroll} />
     </main>
   );

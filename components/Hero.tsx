@@ -15,7 +15,7 @@ interface HeroProps {
 
 function Hero({ executeScroll, about }: HeroProps) {
   return (
-    <div className="h-screen flex flex-col items-center justify-center text-center relative">
+    <div id='home' className="h-screen flex flex-col items-center justify-center text-center relative">
       <AnimateDownOnView>
         <h1 className="text-3xl sm:text-5xl tracking-wider text-secondary">
           I am <span className="text-primary">Jackson Boyett</span>
