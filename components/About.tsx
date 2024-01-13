@@ -59,7 +59,7 @@ const skills = [
 
 function About() {
   return (
-    <section className="pt-20 relative text-primary mb-24">
+    <section id='#about' className="pt-20 relative text-primary mb-24">
       <div className="h-3 w-32 bg-primary mx-auto relative z-1 mb-12">
         <h2 className="text-5xl font-extrabold tracking-wider absolute -bottom-0 right-2 text-white">
           About
@@ -84,7 +84,7 @@ function About() {
           </p>
         </div>
         </AnimateLeftOnView>
-        <div className="flex gap-6 flex-wrap w-96 justify-center">
+        <div className="flex gap-6 flex-wrap w-96  justify-center">
           {skills.map((skill) => (
             <AnimateRightOnViewStagger key={skill.name}>
             <Skill

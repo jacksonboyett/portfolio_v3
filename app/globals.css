@@ -18,3 +18,11 @@ textarea:focus, input:focus{
 }
 
 html{scroll-behavior:smooth}
+
+#skill > img {
+	width: auto
+}
+
+#github_logo {
+	width: auto
+}

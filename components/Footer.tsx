@@ -24,13 +24,14 @@ function Footer({ home, executeScroll }: FooterProps) {
             alt="github logo"
             height={36}
             width={36}
+            style={{width: '36px', height: '36px'}}
           />
         </Link>
         <Link href="mailto:jackson.boyett@gmail.com">
           <Image
             className="hover:scale-110 transition-all duration-500"
             src="/mail.png"
-            alt="github logo"
+            alt="mail icon"
             height={36}
             width={36}
           />
