@@ -20,6 +20,8 @@ export default function Home() {
     null
   ) as MutableRefObject<HTMLDivElement>;
 
+  // Trigger new deployement IGNORE
+
   const executeScroll = (ref: MutableRefObject<HTMLDivElement>) => {
     const offset = -50;
     const yElement = ref.current.getBoundingClientRect().top;
