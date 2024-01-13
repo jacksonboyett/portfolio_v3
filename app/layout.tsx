@@ -4,7 +4,7 @@ import { Roboto } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
-const roboto = Roboto({ subsets: ['latin'], weight: '300' });
+const roboto = Roboto({ subsets: ['latin'], weight: ['300'] });
 
 export const metadata: Metadata = {
   title: 'Jackson Boyett | Web Developer',

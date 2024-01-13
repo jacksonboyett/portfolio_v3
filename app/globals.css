@@ -4,8 +4,15 @@
 
 :root {
 	background: #1a1a1a;
+	box-sizing: border-box;
 }
 
-/* html,body{
-	overflow-x: hidden;
-} */
+/* * { outline: 1px red solid !important; visibility: visible !important } */
+
+html,body{
+	overflow-x: clip;
+}
+
+textarea:focus, input:focus{
+	outline: none;
+}
