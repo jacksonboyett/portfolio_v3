@@ -80,7 +80,7 @@ function About() {
             It is my dream to become a full-time remote web developer. I began
             learning web development while on deployment to Poland. During that
             time, I worked intense daily 12-hour shifts, and only during my free
-            time could I learn how to code. After years of leaning, I am ready to enter the industry. {' '}
+            time could I learn how to code. After years of learning, I am ready to enter the industry. {' '}
           </p>
         </div>
         </AnimateLeftOnView>
