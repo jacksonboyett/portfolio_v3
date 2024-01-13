@@ -8,7 +8,7 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['300'] });
 
 export const metadata: Metadata = {
   title: 'Jackson Boyett | Web Developer',
-  description: 'Web developer and engineer',
+  description: 'Jackson Boyett',
 };
 
 export default function RootLayout({
