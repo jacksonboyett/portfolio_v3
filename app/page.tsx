@@ -48,7 +48,7 @@ export default function Home() {
         <Projects />
       </div>
       <div ref={contact}>
-      <Contact/>
+        <Contact />
       </div>
       <Footer home={home} executeScroll={executeScroll} />
     </main>

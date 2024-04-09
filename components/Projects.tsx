@@ -58,7 +58,7 @@ function Projects() {
           </div>
 
 
-      <div className="flex text-white tracking-wider relative ml-auto">
+      {/* <div className="flex text-white tracking-wider relative ml-auto">
         <AnimateRightOnView>
           <div className="bg-primary w-[70vw] sm:w-[60vw] relative py-8 pl-4 sm:py-16 sm:pl-16 hover:shadow-md hover:shadow-secondary">
             <Image
@@ -97,7 +97,7 @@ function Projects() {
             </AnimateShowOnView>
           </div>
         </AnimateRightOnView>
-      </div>
+      </div> */}
     </div>
   );
 }
