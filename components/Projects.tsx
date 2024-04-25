@@ -19,44 +19,83 @@ function Projects() {
           Projects
         </h2>
       </div>
-          <div className="flex text-white tracking-wider relative mb-40 sm:mb-24">
-          <AnimateLeftOnView>
-            <div className="bg-primary w-[70vw] sm:w-[60vw] relative py-8 pr-4 sm:py-16 sm:pr-20 hover:shadow-md hover:shadow-secondary">
-              <Image
-                src="/exitmap.png"
-                alt="exitmap"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '95%', height: 'auto' }}
-              />
-              <AnimateShowOnView>
-                <div
-                  className={`${roboto_bold.className} flex flex-col gap-1 sm:gap-4 absolute top-0 -right-24 sm:top-12 sm:-right-80 bg-background/90 sm:bg-background/30 p-4 rounded w-64 sm:w-96`}>
-                  <h3 className="text-3xl sm:text-4xl">Exitmap</h3>
-                  <h4 className="text-lg sm:text-2xl mb-2">
-                    BASE Jumping Database
-                  </h4>
-                  <p className={`${roboto.className} text-xs sm:text-lg mb-4`}>
-                    Full stack database application built with React, Node.js,
-                    Express.js. PostgreSQL, Redis, and AWS S3.
-                  </p>
-                  <Link
-                    href={'http://www.exit-map.com'}
-                    className="uppercase border-b-2 border-b-secondary hover:text-black hover:bg-secondary pl-2 pt-1 hover:rounded transition">
-                    <p>Live App</p>
-                  </Link>
-                  <Link
-                    href={'https://github.com/jacksonboyett/exitmap-v2'}
-                    className="uppercase border-b-2 border-b-secondary hover:text-black hover:bg-secondary pl-2 pt-1 hover:rounded transition">
-                    <p>Learn More</p>
-                  </Link>
-                </div>
-              </AnimateShowOnView>
-            </div>
-            </AnimateLeftOnView>
-          </div>
 
+      <div className="flex text-white tracking-wider relative ml-auto mb-40">
+        <AnimateRightOnView>
+          <div className="bg-primary w-[70vw] sm:w-[60vw] relative py-8 pl-4 sm:py-16 sm:pl-16 hover:shadow-md hover:shadow-secondary">
+            <Image
+              src="/promiseData.png"
+              alt="exitmap"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '95%', height: 'auto' }}
+              className="ml-auto"
+            />
+            <AnimateShowOnView>
+              <div
+                className={`${roboto_bold.className} flex flex-col gap-1 sm:gap-4 absolute top-0 -left-24 sm:top-12 sm:-left-80 bg-background/90 sm:bg-background/30 p-4 rounded w-64 sm:w-96`}
+              >
+                <h3 className="text-3xl sm:text-4xl">Promise Data</h3>
+                <h4 className="text-lg sm:text-2xl mb-2">
+                  Data Transfer Tool for VR Headseats
+                </h4>
+                <p className={`${roboto.className} text-xs sm:text-lg mb-4`}>
+                  Full stack Electron desktop application build with Typescript,
+                  React, and Apollo Client.
+                </p>
+                <Link
+                  href={'https://www.youtube.com/watch?v=yN_O4ur6p_8&t=14s'}
+                  className="uppercase border-b-2 border-b-secondary hover:text-black hover:bg-secondary pl-2 pt-1 hover:rounded transition"
+                >
+                  <p>View Demonstration</p>
+                </Link>
+              </div>
+            </AnimateShowOnView>
+          </div>
+        </AnimateRightOnView>
+      </div>
+
+      <div className="flex text-white tracking-wider relative sm:mb-24">
+        <AnimateLeftOnView>
+          <div className="bg-primary w-[70vw] sm:w-[60vw] relative py-8 pr-4 sm:py-16 sm:pr-20 hover:shadow-md hover:shadow-secondary">
+            <Image
+              src="/exitmap.png"
+              alt="exitmap"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '95%', height: 'auto' }}
+            />
+            <AnimateShowOnView>
+              <div
+                className={`${roboto_bold.className} flex flex-col gap-1 sm:gap-4 absolute top-0 -right-24 sm:top-12 sm:-right-80 bg-background/90 sm:bg-background/30 p-4 rounded w-64 sm:w-96`}
+              >
+                <h3 className="text-3xl sm:text-4xl">Exitmap</h3>
+                <h4 className="text-lg sm:text-2xl mb-2">
+                  BASE Jumping Database
+                </h4>
+                <p className={`${roboto.className} text-xs sm:text-lg mb-4`}>
+                  Full stack database application built with React, Node.js,
+                  Express.js. PostgreSQL, Redis, and AWS S3.
+                </p>
+                <Link
+                  href={'http://www.exit-map.com'}
+                  className="uppercase border-b-2 border-b-secondary hover:text-black hover:bg-secondary pl-2 pt-1 hover:rounded transition"
+                >
+                  <p>Live App</p>
+                </Link>
+                <Link
+                  href={'https://github.com/jacksonboyett/exitmap-v2'}
+                  className="uppercase border-b-2 border-b-secondary hover:text-black hover:bg-secondary pl-2 pt-1 hover:rounded transition"
+                >
+                  <p>Learn More</p>
+                </Link>
+              </div>
+            </AnimateShowOnView>
+          </div>
+        </AnimateLeftOnView>
+      </div>
 
       {/* <div className="flex text-white tracking-wider relative ml-auto">
         <AnimateRightOnView>
