@@ -97,7 +97,7 @@ function Projects() {
         </AnimateLeftOnView>
       </div>
 
-      {/* <div className="flex text-white tracking-wider relative ml-auto">
+      <div className="flex text-white tracking-wider relative ml-auto">
         <AnimateRightOnView>
           <div className="bg-primary w-[70vw] sm:w-[60vw] relative py-8 pl-4 sm:py-16 sm:pl-16 hover:shadow-md hover:shadow-secondary">
             <Image
@@ -122,11 +122,11 @@ function Projects() {
                   Full stack database application build with Next.js, Prisma,
                   PlanetScale, ClerkAuth, Stripe, and OpenAI.
                 </p>
-                <Link
+                {/* <Link
                   href={'http://worldview-three.vercel.app'}
                   className="uppercase border-b-2 border-b-secondary hover:text-black hover:bg-secondary pl-2 pt-1 hover:rounded transition">
                   <p>Live App</p>
-                </Link>
+                </Link> */}
                 <Link
                   href={'https://github.com/jacksonboyett/worldview'}
                   className="uppercase border-b-2 border-b-secondary hover:text-black hover:bg-secondary pl-2 pt-1 hover:rounded transition">
@@ -136,7 +136,7 @@ function Projects() {
             </AnimateShowOnView>
           </div>
         </AnimateRightOnView>
-      </div> */}
+      </div>
     </div>
   );
 }
