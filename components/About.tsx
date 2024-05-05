@@ -55,6 +55,12 @@ const skills = [
     bg: 'bg-[#222222]',
     name: 'NodeJS',
   },
+  {
+    src: '/electron.png',
+    alt: 'electron logo',
+    bg: 'bg-[#222222]',
+    name: 'Electron',
+  }
 ];
 
 function About() {
