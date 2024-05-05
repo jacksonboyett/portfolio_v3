@@ -56,7 +56,7 @@ function Projects() {
         </AnimateRightOnView>
       </div>
 
-      <div className="flex text-white tracking-wider relative sm:mb-24">
+      <div className="flex text-white tracking-wider relative mb-40">
         <AnimateLeftOnView>
           <div className="bg-primary w-[70vw] sm:w-[60vw] relative py-8 pr-4 sm:py-16 sm:pr-20 hover:shadow-md hover:shadow-secondary">
             <Image
