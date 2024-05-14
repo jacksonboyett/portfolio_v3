@@ -13,7 +13,8 @@ function Footer({ home, executeScroll }: FooterProps) {
     <div className="h-40 relative bg-background-light text-white flex flex-col justify-center items-center">
       <div
         onClick={() => executeScroll(home)}
-        className="bg-primary h-12 w-10 flex justify-center items-center absolute -top-6 rounded  hover:-translate-y-2 transition-all duration-1000">
+        className="bg-primary h-12 w-10 flex justify-center items-center absolute -top-6 rounded  hover:-translate-y-2 transition-all duration-1000"
+      >
         <ChevronsUp className="h-8 w-8" />
       </div>
       <div className="flex mb-4 gap-4">
@@ -24,7 +25,6 @@ function Footer({ home, executeScroll }: FooterProps) {
             alt="github logo"
             height={36}
             width={36}
-            style={{width: '36px', height: '36px'}}
           />
         </Link>
         <Link href="mailto:jackson.boyett@gmail.com">
@@ -32,6 +32,15 @@ function Footer({ home, executeScroll }: FooterProps) {
             className="hover:scale-110 transition-all duration-500"
             src="/mail.png"
             alt="mail icon"
+            height={36}
+            width={36}
+          />
+        </Link>
+        <Link href="https://www.linkedin.com/in/jackson-boyett-a24915279/">
+          <Image
+            className="hover:scale-110 transition-all duration-500"
+            src="/linkedin.png"
+            alt="linkedin logo"
             height={36}
             width={36}
           />
