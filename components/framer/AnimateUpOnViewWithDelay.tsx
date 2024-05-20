@@ -8,7 +8,7 @@ function AnimateUpOnViewWithDelay({children}: any) {
 initial="hidden"
 whileInView="visible"
 viewport={{ once: true }}
-transition={{ type: "linear", duration: 1, delay: 3}}
+transition={{ type: "linear", duration: 1, delay: 2.5}}
 variants={{
 	visible: { opacity: 1, y: 0 },
 	hidden: { opacity: 0, y: "150%" },

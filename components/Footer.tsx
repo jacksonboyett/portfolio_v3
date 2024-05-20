@@ -36,7 +36,7 @@ function Footer({ home, executeScroll }: FooterProps) {
             width={36}
           />
         </Link>
-        <Link href="https://www.linkedin.com/in/jackson-boyett-a24915279/">
+        <Link href="https://www.linkedin.com/in/jacksonboyett/">
           <Image
             className="hover:scale-110 transition-all duration-500"
             src="/linkedin.png"

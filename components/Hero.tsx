@@ -18,12 +18,12 @@ function Hero({ executeScroll, about }: HeroProps) {
     <div id='home' className="h-screen flex flex-col items-center justify-center text-center relative">
       <AnimateDownOnView>
         <h1 className="text-3xl sm:text-5xl tracking-wider text-secondary">
-          I am <span className="text-primary">Jackson Boyett</span>
+          <span className="text-primary">Jackson Boyett</span>
         </h1>
       </AnimateDownOnView>
       <AnimateUpOnView>
         <h2 className="text-secondary text-2xl sm:text-4xl tracking-wider mt-4">
-          - full stack web developer -
+          - full stack software engineer -
         </h2>
       </AnimateUpOnView>
       <AnimateUpOnViewWithDelay>
