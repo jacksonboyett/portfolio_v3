@@ -76,7 +76,7 @@ function About() {
           <div className="flex flex-col items-center gap-4 text-center sm:text-left">
             <IconPersonOutline />
             <p className="text-white sm:w-[30rem]">
-              I am a highly motivated, hands-on Web Developer with an education
+              I am a highly motivated, hands-on Software Engineer with an education
               background in Mechanical Engineering. I have extensive leadership
               experience as a U.S. Army Officer planning operations for hundreds
               of individuals and managing over $600 million worth of U.S.
