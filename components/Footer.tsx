@@ -27,7 +27,7 @@ function Footer({ home, executeScroll }: FooterProps) {
             width={36}
           />
         </Link>
-        <Link href="mailto:jackson.boyett@gmail.com">
+        <Link href="mailto:jacksonboyett16@gmail.com">
           <Image
             className="hover:scale-110 transition-all duration-500"
             src="/mail.png"
